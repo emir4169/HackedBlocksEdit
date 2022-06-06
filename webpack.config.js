@@ -158,28 +158,28 @@ module.exports = [
                 chunks: ['editor'],
                 template: 'src/playground/index.ejs',
                 filename: 'editor.html',
-                title: 'TurboWarp - Run Scratch projects faster',
+                title: 'SN-Edit - Develop like never before',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['player'],
                 template: 'src/playground/index.ejs',
                 filename: 'index.html',
-                title: 'TurboWarp - Run Scratch projects faster',
+                title: 'SN-Edit - Develop like never before',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['fullscreen'],
                 template: 'src/playground/index.ejs',
                 filename: 'fullscreen.html',
-                title: 'TurboWarp - Run Scratch projects faster',
+                title: 'SN-Edit - Develop like never before',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['embed'],
                 template: 'src/playground/index.ejs',
                 filename: 'embed.html',
-                title: 'Embedded Project - TurboWarp',
+                title: 'Embedded Project - Sn-Edit',
                 noTheme: true,
                 ...htmlWebpackPluginCommon
             }),
@@ -187,14 +187,14 @@ module.exports = [
                 chunks: ['addon-settings'],
                 template: 'src/playground/simple.ejs',
                 filename: 'addons.html',
-                title: 'Addon Settings - TurboWarp',
+                title: 'SN-Edit Addon Settings',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['credits'],
                 template: 'src/playground/simple.ejs',
                 filename: 'credits.html',
-                title: 'TurboWarp Credits',
+                title: 'SN-Edit Credits',
                 noSplash: true,
                 ...htmlWebpackPluginCommon
             }),
