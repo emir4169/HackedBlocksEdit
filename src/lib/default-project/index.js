@@ -2,7 +2,7 @@ import projectData from './project-data';
 
 /* eslint-disable import/no-unresolved */
 import backdrop from '!raw-loader!./cd21514d0531fdffb22204e0ec5ed84a.svg';
-import costume1 from '!raw-loader!./dango.svg';
+import costume1 from '!raw-loader!./b4ab6b3b69de1bc3ed6a94ace172a0b0.svg';
 /* eslint-enable import/no-unresolved */
 import {TextEncoder} from '../tw-text-encoder';
 
