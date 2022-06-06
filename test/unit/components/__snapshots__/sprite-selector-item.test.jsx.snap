@@ -42,7 +42,7 @@ exports[`SpriteSelectorItemComponent matches snapshot when given a number and de
     <div
       className={undefined}
     >
-      480 x 360
+      640 x 360
     </div>
   </div>
   <div
