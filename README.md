@@ -1,10 +1,9 @@
-scratch-gui modified for use in [TurboWarp](https://turbowarp.org/)
+# Welcome to the new SN-Edit
+You may have notcied that we look **way** different! Thats because we've moved from our old SheepTester fork to a new Turbowarp fork. Sn-Edit looks different and thats because we've added TONS of new features! We hope that you enjoy this update.
 
-## Setup
+# SN-Edit: The Official SNext Editor
+Welcome to SN-Edit! This is the official site for Editing games for SNext. We provide tools many devs will need to make their games amazing! With superior cloud servers, forced 16:9 aspect ratio 60 fps and more, you're sure to make this your new editor.
 
-See https://docs.turbowarp.org/development/getting-started to setup the complete TurboWarp environment.
-
-If you just want to play with the GUI then it's the same process as upstream scratch-gui.
 
 ## License
 
