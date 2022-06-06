@@ -16,11 +16,11 @@ const SET_USERNAME_INVALID = 'tw/SET_USERNAME_INVALID';
 const SET_HAS_CLOUD_VARIABLES = 'tw/SET_HAS_CLOUD_VARIABLES';
 
 export const initialState = {
-    framerate: 30,
+    framerate: 60,
     interpolation: false,
     cloud: true,
     username: '',
-    highQualityPen: false,
+    highQualityPen: true,
     compilerOptions: {
         enabled: true,
         warpTimer: false
