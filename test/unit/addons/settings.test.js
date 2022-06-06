@@ -195,7 +195,7 @@ test('apply preset', () => {
     store.applyAddonPreset('editor-theme3', 'original');
     expect(fn.mock.calls.length).toBeGreaterThan(5);
     expect(store.getAddonSetting('editor-theme3', 'motion-color')).toBe('#4a6cd4');
-    expect(store.getAddonSetting('editor-theme3', 'tw-color')).toBe('#ff4c4c');
+    expect(store.getAddonSetting('editor-theme3', 'tw-color')).toBe('#ff964c');
 });
 
 test('unknown preset throws', () => {

@@ -119,7 +119,7 @@ const manifest = {
       "name": "TurboWarp",
       "id": "tw-color",
       "type": "color",
-      "default": "#ff4c4c",
+      "default": "#ff964c",
       "allowTransparency": true
     },
     {

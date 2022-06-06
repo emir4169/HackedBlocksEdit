@@ -85,7 +85,7 @@ function updateSettings(addon, newStyle) {
       alt: "pen",
     },
     TurboWarp: {
-      color: "#ff4c4c",
+      color: "#ff964c",
       tertiaryColor: "#e64444", // TODO fix
       alt: "tw",
       var: "tw",
