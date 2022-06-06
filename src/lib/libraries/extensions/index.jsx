@@ -46,7 +46,8 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
-import twIcon from './tw/tw.svg';
+import hcIconURL from './hc/hc.svg';
+import hcInsetIconURL from './hc/hc-small.svg';
 
 import customExtensionIcon from './custom/custom.svg';
 
@@ -325,17 +326,18 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="TurboWarp Blocks"
-                description="Name of TW extension"
-                id="tw.twExtension.name"
+                defaultMessage="HighClass"
+                description="Name of HighClass extension"
+                id="sn.hc.name"
             />
         ),
-        extensionId: 'tw',
-        iconURL: twIcon,
+        extensionId: 'hc',
+        iconURL: hcIconURL,
+        insetIconURL: hcInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="Weird new blocks. Not compatible with Scratch."
-                description="Description of TW extension"
+                defaultMessage="Special Blocks that make development alot easier. Not backwards compatible."
+                description="Description of HighClass extension"
                 id="tw.twExtension.description"
             />
         ),
