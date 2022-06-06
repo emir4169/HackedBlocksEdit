@@ -66,7 +66,7 @@ const handleClickAddonSettings = () => {
 
 const messages = defineMessages({
     defaultTitle: {
-        defaultMessage: 'Develop like never before.',
+        defaultMessage: 'SN-Edit - Develop like never before.',
         description: 'Title of homepage',
         id: 'tw.guiDefaultTitle'
     }
