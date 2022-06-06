@@ -247,10 +247,10 @@ class MenuBar extends React.Component {
         this.props.onClickSaveAsCopy();
         this.props.onRequestCloseFile();
     }
-    handleClickPackager () {
-        this.props.onClickPackager();
-        this.props.onRequestCloseFile();
-    }
+    // handleClickPackager () {
+    //     this.props.onClickPackager();
+    //     this.props.onRequestCloseFile();
+    // }
     handleClickSeeCommunity (waitForUpdate) {
         if (this.props.shouldSaveBeforeTransition()) {
             this.props.autoUpdateProject(); // save before transitioning to project page
@@ -627,20 +627,6 @@ class MenuBar extends React.Component {
                                             </React.Fragment>
                                         )}</SB3Downloader>
                                     </MenuSection>
-                                    {this.props.onClickPackager && (
-                                        <MenuSection>
-                                            <MenuItem
-                                                onClick={this.handleClickPackager}
-                                            >
-                                                <FormattedMessage
-                                                    defaultMessage="Package project"
-                                                    // eslint-disable-next-line max-len
-                                                    description="Menu bar item to open the current project in the packager"
-                                                    id="tw.menuBar.package"
-                                                />
-                                            </MenuItem>
-                                        </MenuSection>
-                                    )}
                                     <MenuSection>
                                         <TWRestorePointLoader>{(className, loadRestorePoint) => (
                                             <MenuItem
@@ -877,24 +863,6 @@ class MenuBar extends React.Component {
                                 onClick={this.handleClickSeeInside}
                             />
                         ) : []))}
-                    </div>
-                    {/* tw: add a feedback button */}
-                    <div className={styles.menuBarItem}>
-                        <a
-                            className={styles.feedbackLink}
-                            href="https://scratch.mit.edu/users/GarboMuffin/#comments"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                        >
-                            {/* todo: icon */}
-                            <Button className={styles.feedbackButton}>
-                                <FormattedMessage
-                                    defaultMessage="TurboWarp Feedback"
-                                    description="Button to give feedback in the menu bar"
-                                    id="tw.feedbackButton"
-                                />
-                            </Button>
-                        </a>
                     </div>
                 </div>
 

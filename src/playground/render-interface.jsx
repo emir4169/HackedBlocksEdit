@@ -92,91 +92,92 @@ if (AddonChannels.changeChannel) {
 runAddons();
 
 const Footer = () => (
-    <footer className={styles.footer}>
-        <div className={styles.footerContent}>
-            <div className={styles.footerText}>
-                <FormattedMessage
-                    // eslint-disable-next-line max-len
-                    defaultMessage="TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
-                    description="Disclaimer that TurboWarp is not connected to Scratch"
-                    id="tw.footer.disclaimer"
-                />
-            </div>
-            <div className={styles.footerColumns}>
-                <div className={styles.footerSection}>
-                    <a href="https://fosshost.org/">
-                        <FormattedMessage
-                            defaultMessage="Hosting provided by Fosshost"
-                            description="Fosshost link in footer"
-                            id="tw.footer.fosshost"
-                        />
-                    </a>
-                    <a href="credits.html">
-                        <FormattedMessage
-                            defaultMessage="Credits"
-                            description="Credits link in footer"
-                            id="tw.footer.credits"
-                        />
-                    </a>
-                </div>
-                <div className={styles.footerSection}>
-                    <a href="https://desktop.turbowarp.org/">
-                        {/* Do not translate */}
-                        {'TurboWarp Desktop'}
-                    </a>
-                    <a href="https://packager.turbowarp.org/">
-                        {/* Do not translate */}
-                        {'TurboWarp Packager'}
-                    </a>
-                    <a href="https://docs.turbowarp.org/embedding">
-                        <FormattedMessage
-                            defaultMessage="Embedding"
-                            description="Menu bar item for embedding link"
-                            id="tw.footer.embed"
-                        />
-                    </a>
-                    <a href="https://docs.turbowarp.org/url-parameters">
-                        <FormattedMessage
-                            defaultMessage="URL Parameters"
-                            description="Menu bar item for URL parameters link"
-                            id="tw.footer.parameters"
-                        />
-                    </a>
-                    <a href="https://docs.turbowarp.org/translate">
-                        <FormattedMessage
-                            defaultMessage="Help Translate TurboWarp"
-                            description="Menu bar item for translating TurboWarp link"
-                            id="tw.footer.translate"
-                        />
-                    </a>
-                </div>
-                <div className={styles.footerSection}>
-                    <a href="https://scratch.mit.edu/users/GarboMuffin/#comments">
-                        <FormattedMessage
-                            defaultMessage="Feedback & Bugs"
-                            description="Link to feedback/bugs page"
-                            id="tw.feedback"
-                        />
-                    </a>
-                    <a href="https://github.com/TurboWarp/">
-                        <FormattedMessage
-                            defaultMessage="Source Code"
-                            description="Link to source code"
-                            id="tw.code"
-                        />
-                    </a>
-                    <a href="privacy.html">
-                        <FormattedMessage
-                            defaultMessage="Privacy Policy"
-                            description="Link to privacy policy"
-                            id="tw.privacy"
-                        />
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
-);
+    console.log("footer gone.")
+)
+    // <footer className={styles.footer}>
+    //     <div className={styles.footerContent}>
+    //         <div className={styles.footerText}>
+    //             <FormattedMessage
+    //                 // eslint-disable-next-line max-len
+    //                 defaultMessage="TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
+    //                 description="Disclaimer that TurboWarp is not connected to Scratch"
+    //                 id="tw.footer.disclaimer"
+    //             />
+    //         </div>
+    //         <div className={styles.footerColumns}>
+    //             <div className={styles.footerSection}>
+    //                 <a href="https://fosshost.org/">
+    //                     <FormattedMessage
+    //                         defaultMessage="Hosting provided by Fosshost"
+    //                         description="Fosshost link in footer"
+    //                         id="tw.footer.fosshost"
+    //                     />
+    //                 </a>
+    //                 <a href="credits.html">
+    //                     <FormattedMessage
+    //                         defaultMessage="Credits"
+    //                         description="Credits link in footer"
+    //                         id="tw.footer.credits"
+    //                     />
+    //                 </a>
+    //             </div>
+    //             <div className={styles.footerSection}>
+    //                 <a href="https://desktop.turbowarp.org/">
+    //                     {/* Do not translate */}
+    //                     {'TurboWarp Desktop'}
+    //                 </a>
+    //                 <a href="https://packager.turbowarp.org/">
+    //                     {/* Do not translate */}
+    //                     {'TurboWarp Packager'}
+    //                 </a>
+    //                 <a href="https://docs.turbowarp.org/embedding">
+    //                     <FormattedMessage
+    //                         defaultMessage="Embedding"
+    //                         description="Menu bar item for embedding link"
+    //                         id="tw.footer.embed"
+    //                     />
+    //                 </a>
+    //                 <a href="https://docs.turbowarp.org/url-parameters">
+    //                     <FormattedMessage
+    //                         defaultMessage="URL Parameters"
+    //                         description="Menu bar item for URL parameters link"
+    //                         id="tw.footer.parameters"
+    //                     />
+    //                 </a>
+    //                 <a href="https://docs.turbowarp.org/translate">
+    //                     <FormattedMessage
+    //                         defaultMessage="Help Translate TurboWarp"
+    //                         description="Menu bar item for translating TurboWarp link"
+    //                         id="tw.footer.translate"
+    //                     />
+    //                 </a>
+    //             </div>
+    //             <div className={styles.footerSection}>
+    //                 <a href="https://scratch.mit.edu/users/GarboMuffin/#comments">
+    //                     <FormattedMessage
+    //                         defaultMessage="Feedback & Bugs"
+    //                         description="Link to feedback/bugs page"
+    //                         id="tw.feedback"
+    //                     />
+    //                 </a>
+    //                 <a href="https://github.com/TurboWarp/">
+    //                     <FormattedMessage
+    //                         defaultMessage="Source Code"
+    //                         description="Link to source code"
+    //                         id="tw.code"
+    //                     />
+    //                 </a>
+    //                 <a href="privacy.html">
+    //                     <FormattedMessage
+    //                         defaultMessage="Privacy Policy"
+    //                         description="Link to privacy policy"
+    //                         id="tw.privacy"
+    //                     />
+    //                 </a>
+    //             </div>
+    //         </div>
+    //     </div>
+    // </footer>
 
 class Interface extends React.Component {
     constructor (props) {
@@ -305,7 +306,7 @@ class Interface extends React.Component {
                         </React.Fragment>
                     ) : null}
                 </div>
-                {isHomepage && <Footer />}
+                {/* {isHomepage && <Footer />} */}
             </div>
         );
     }
