@@ -22,9 +22,8 @@ const CrashMessage = props => (
             </p>
             <p>
                 <FormattedMessage
-                    defaultMessage={'We are so sorry, but it looks like the page has crashed.' +
-                        ' Please refresh your page to try' +
-                        ' again.'}
+                    defaultMessage={'We are so sorry, but its seems like Sn-Edit has crashed.'+
+                    'Please reload the page and try again. If then issue persists contact Cube Enix Support.'}
                     description="Message to inform the user that page has crashed."
                     id="tw.gui.crashMessage.description"
                 />
