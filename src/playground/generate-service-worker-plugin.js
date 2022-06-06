@@ -47,7 +47,7 @@ class TWGenerateServiceWorkerPlugin {
                 ) lazyAssets.push(name);
                 else if (
                     // other assets
-                    name.startsWith('static/assets')
+                    name.startsWith('static')
                 ) lazyAssets.push(name);
                 else if (
                     // JavaScript
