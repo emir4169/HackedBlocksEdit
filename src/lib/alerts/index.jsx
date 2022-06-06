@@ -203,7 +203,7 @@ const alerts = [
         clearList: ['cloudInfo'],
         content: (
             <FormattedMessage
-                defaultMessage="Please note, cloud variables only support numbers, not letters or symbols. {learnMoreLink}" // eslint-disable-line max-len
+                defaultMessage="SN-Edit supports are variable types including letters and special characters. Theres also no limit." // eslint-disable-line max-len
                 description="Info about cloud variable limitations"
                 id="gui.alerts.cloudInfo"
                 values={{
