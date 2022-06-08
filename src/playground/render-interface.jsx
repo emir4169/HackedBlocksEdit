@@ -275,7 +275,7 @@ class Interface extends React.Component {
                                         {"Welcome to the SN-Edit v2 Update. You may have notcied that we look **way** different! Thats because we've moved from our old SheepTester fork to a new Turbowarp fork. Sn-Edit looks different and thats because we've added TONS of new features! We hope that you enjoy this update."}
                                     </p>
                                     <p>
-                                        {'For more information, visit: '}
+                                        {'For more information, visit '}
                                         <a
                                             href="https://cube-enix.github.io/DevKit.html"
                                             target="_blank"
