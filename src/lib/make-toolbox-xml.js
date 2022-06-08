@@ -160,7 +160,7 @@ const xmlEscape = function (unsafe) {
 };
 
 const looks = function (isInitialSetup, isStage, targetId, costumeName, backdropName) {
-    const hello = translate('LOOKS_HELLO', 'Hello!');
+    const hello = translate('LOOKS_HELLO', 'Hello World!');
     const hmm = translate('LOOKS_HMM', 'Hmm...');
     return `
     <category name="%{BKY_CATEGORY_LOOKS}" id="looks" colour="#9966FF" secondaryColour="#774DCB">
@@ -524,6 +524,7 @@ const operators = function (isInitialSetup) {
     const apple = translate('OPERATORS_JOIN_APPLE', 'apple');
     const banana = translate('OPERATORS_JOIN_BANANA', 'banana');
     const letter = translate('OPERATORS_LETTEROF_APPLE', 'a');
+    const normal = translate('OPERATORS_RETURN_NORMAL', 'normalcat')
     return `
     <category name="%{BKY_CATEGORY_OPERATORS}" id="operators" colour="#40BF4A" secondaryColour="#389438">
         <block type="operator_add">
@@ -612,6 +613,18 @@ const operators = function (isInitialSetup) {
                 </shadow>
             </value>
         </block>
+        <block type="operator_lte">
+            <value name="OPERAND1">
+                <shadow type="text">
+                    <field name="TEXT"/>
+                </shadow>
+            </value>
+            <value name="OPERAND2">
+                <shadow type="text">
+                    <field name="TEXT">50</field>
+                </shadow>
+            </value>
+        </block>
         <block type="operator_equals">
             <value name="OPERAND1">
                 <shadow type="text">
@@ -639,6 +652,13 @@ const operators = function (isInitialSetup) {
                 <value name="STRING2">
                     <shadow type="text">
                         <field name="TEXT">${banana}</field>
+                    </shadow>
+                </value>
+            </block>
+            <block type="operator_return">
+                <value name="STRING">
+                    <shadow type="text">
+                        <field name="TEXT">${normal} </field>
                     </shadow>
                 </value>
             </block>
