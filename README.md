@@ -4,7 +4,6 @@ You may have notcied that we look **way** different! Thats because we've moved f
 # SN-Edit: The Official SNext Editor
 Welcome to SN-Edit! This is the official site for Editing games for SNext. We provide tools many devs will need to make their games amazing! With superior cloud servers, forced 16:9 aspect ratio 60 fps and more, you're sure to make this your new editor.
 
-
 ## License
 
 Cube Enix's modifications to Scratch are licensed under the GNU General Public License v3.0. See LICENSE or https://www.gnu.org/licenses/ for details.
