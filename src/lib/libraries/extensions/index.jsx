@@ -55,6 +55,27 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="HighClass"
+                description="Name of HighClass extension"
+                id="sn.hc.name"
+            />
+        ),
+        extensionId: 'hc',
+        iconURL: hcIconURL,
+        insetIconURL: hcInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Special Blocks that make development alot easier. Not backwards compatible."
+                description="Description of HighClass extension"
+                id="tw.twExtension.description"
+            />
+        ),
+        featured: true,
+        incompatibleWithScratch: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Music"
                 description="Name for the 'Music' extension"
                 id="gui.extension.music.name"
@@ -322,27 +343,6 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
-    },
-    {
-        name: (
-            <FormattedMessage
-                defaultMessage="HighClass"
-                description="Name of HighClass extension"
-                id="sn.hc.name"
-            />
-        ),
-        extensionId: 'hc',
-        iconURL: hcIconURL,
-        insetIconURL: hcInsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage="Special Blocks that make development alot easier. Not backwards compatible."
-                description="Description of HighClass extension"
-                id="tw.twExtension.description"
-            />
-        ),
-        featured: true,
-        incompatibleWithScratch: true
     },
     {
         name: (
