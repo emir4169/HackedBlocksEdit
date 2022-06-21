@@ -85,8 +85,8 @@ export default [
             />
         ),
         extensionId: 'snap',
-        iconURL: hcIconURL,
-        insetIconURL: hcInsetIconURL,
+        iconURL: snapIconURL,
+        insetIconURL: snapInsetIconURL,
         description: (
             <FormattedMessage
                 defaultMessage="SNext Audio Player or SNAP is an extension developed to allow developers to play audio from an external source."
