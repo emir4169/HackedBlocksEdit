@@ -49,6 +49,9 @@ import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 import hcIconURL from './hc/hc.svg';
 import hcInsetIconURL from './hc/hc-small.svg';
 
+import snapIconURL from './snap/snap.svg'
+import snapInsetIconURL from './snap/snap-small.svg'
+
 import customExtensionIcon from './custom/custom.svg';
 
 export default [
@@ -67,10 +70,32 @@ export default [
             <FormattedMessage
                 defaultMessage="Special Blocks that make development alot easier. Not backwards compatible."
                 description="Description of HighClass extension"
-                id="tw.twExtension.description"
+                id="sn.hc.description"
             />
         ),
         featured: true,
+        incompatibleWithScratch: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Snap"
+                description="Name of Snext Audio Player extension"
+                id="sn.hc.name"
+            />
+        ),
+        extensionId: 'snap',
+        iconURL: hcIconURL,
+        insetIconURL: hcInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="SNext Audio Player or SNAP is an extension developed to allow developers to play audio from an external source."
+                description="Description of SNext Audio Player extension"
+                id="sn.snap.description"
+            />
+        ),
+        featured: true,
+        internetConnectionRequired: true,
         incompatibleWithScratch: true
     },
     {
