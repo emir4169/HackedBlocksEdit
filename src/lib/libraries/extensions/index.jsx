@@ -81,7 +81,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Snap"
                 description="Name of Snext Audio Player extension"
-                id="sn.hc.name"
+                id="sn.snap.name"
             />
         ),
         extensionId: 'snap',
