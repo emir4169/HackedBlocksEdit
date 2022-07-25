@@ -12,7 +12,7 @@ const manifest = {
       "link": "https://scratch.mit.edu/users/Tacodude7729/"
     }
   ],
-  "enabledByDefault": false,
+  "enabledByDefault": true,
   "dynamicDisable": true,
   "userstyles": [
     {

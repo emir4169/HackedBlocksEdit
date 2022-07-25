@@ -20,7 +20,7 @@ const manifest = {
       "name": "Default fill color",
       "id": "fill",
       "type": "color",
-      "default": "#9966FF"
+      "default": "#f7aa32"
     },
     {
       "dynamic": true,
@@ -36,7 +36,7 @@ const manifest = {
       "type": "integer",
       "min": 0,
       "max": 100,
-      "default": 4
+      "default": 5
     },
     {
       "dynamic": true,
@@ -51,6 +51,6 @@ const manifest = {
     "new"
   ],
   "dynamicDisable": true,
-  "enabledByDefault": false
+  "enabledByDefault": true
 };
 export default manifest;
