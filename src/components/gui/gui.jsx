@@ -297,13 +297,13 @@ const GUIComponent = props => {
                                         />
                                         {targetIsStage ? (
                                             <FormattedMessage
-                                                defaultMessage="Backdrops"
+                                                defaultMessage="Backgrounds"
                                                 description="Button to get to the backdrops panel"
                                                 id="gui.gui.backdropsTab"
                                             />
                                         ) : (
                                             <FormattedMessage
-                                                defaultMessage="Costumes"
+                                                defaultMessage="Sprites"
                                                 description="Button to get to the costumes panel"
                                                 id="gui.gui.costumesTab"
                                             />
@@ -318,7 +318,7 @@ const GUIComponent = props => {
                                             src={soundsIcon}
                                         />
                                         <FormattedMessage
-                                            defaultMessage="Sounds"
+                                            defaultMessage="Audio"
                                             description="Button to get to the sounds panel"
                                             id="gui.gui.soundsTab"
                                         />

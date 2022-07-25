@@ -127,7 +127,7 @@ const HighQualityPen = props => (
         {...props}
         label={
             <FormattedMessage
-                defaultMessage="High Quality Pen"
+                defaultMessage="HD Pen"
                 description="High quality pen setting"
                 id="tw.settingsModal.highQualityPen"
             />

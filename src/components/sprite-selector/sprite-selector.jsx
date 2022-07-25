@@ -26,12 +26,12 @@ const messages = defineMessages({
     addSpriteFromPaint: {
         id: 'gui.spriteSelector.addSpriteFromPaint',
         description: 'Button to add a sprite in the target pane from paint',
-        defaultMessage: 'Paint'
+        defaultMessage: 'Draw'
     },
     addSpriteFromSurprise: {
         id: 'gui.spriteSelector.addSpriteFromSurprise',
         description: 'Button to add a random sprite in the target pane',
-        defaultMessage: 'Surprise'
+        defaultMessage: 'Random'
     },
     addSpriteFromFile: {
         id: 'gui.spriteSelector.addSpriteFromFile',

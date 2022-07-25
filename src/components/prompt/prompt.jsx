@@ -11,12 +11,12 @@ import styles from './prompt.css';
 
 const messages = defineMessages({
     forAllSpritesMessage: {
-        defaultMessage: 'For all sprites',
+        defaultMessage: 'For all sprites (Global)',
         description: 'Option message when creating a variable for making it available to all sprites',
         id: 'gui.gui.variableScopeOptionAllSprites'
     },
     forThisSpriteMessage: {
-        defaultMessage: 'For this sprite only',
+        defaultMessage: 'For this sprite only (Local)',
         description: 'Option message when creating a varaible for making it only available to the current sprite',
         id: 'gui.gui.variableScopeOptionSpriteOnly'
     },
@@ -125,7 +125,7 @@ const PromptComponent = props => (
                 <Box className={styles.infoMessage}>
                     <FormattedMessage
                         /* eslint-disable-next-line max-len */
-                        defaultMessage="Although you can create cloud variables, they won't work unless this project is compiled."
+                        defaultMessage="Cloud Variables should work in the editor but they will work when compiled."
                         description="Reminder that cloud variables may not work when the editor is open"
                         values={{
                             packager: (

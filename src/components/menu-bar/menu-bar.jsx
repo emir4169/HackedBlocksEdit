@@ -305,13 +305,13 @@ class MenuBar extends React.Component {
             />);
         case 'Sound':
             return (<FormattedMessage
-                defaultMessage="Restore Sound"
+                defaultMessage="Restore Audio"
                 description="Menu bar item for restoring the last deleted sound."
                 id="gui.menuBar.restoreSound"
             />);
         case 'Costume':
             return (<FormattedMessage
-                defaultMessage="Restore Costume"
+                defaultMessage="Restore Sprite Frame"
                 description="Menu bar item for restoring the last deleted costume."
                 id="gui.menuBar.restoreCostume"
             />);
@@ -627,7 +627,7 @@ class MenuBar extends React.Component {
                                                 onClick={loadRestorePoint}
                                             >
                                                 <FormattedMessage
-                                                    defaultMessage="Load restore point"
+                                                    defaultMessage="Load autosave"
                                                     description="Menu bar item for loading a restore point"
                                                     id="tw.menuBar.loadRestorePoint"
                                                 />
