@@ -43,27 +43,27 @@ let messages = defineMessages({
         id: 'gui.costumeTab.addBackdropFromLibrary'
     },
     addLibraryCostumeMsg: {
-        defaultMessage: 'Choose a Costume',
+        defaultMessage: 'Choose a Sprite Frame',
         description: 'Button to add a costume in the editor tab',
         id: 'gui.costumeTab.addCostumeFromLibrary'
     },
     addBlankCostumeMsg: {
-        defaultMessage: 'Paint',
+        defaultMessage: 'Draw',
         description: 'Button to add a blank costume in the editor tab',
         id: 'gui.costumeTab.addBlankCostume'
     },
     addSurpriseCostumeMsg: {
-        defaultMessage: 'Surprise',
+        defaultMessage: 'Random',
         description: 'Button to add a surprise costume in the editor tab',
         id: 'gui.costumeTab.addSurpriseCostume'
     },
     addFileBackdropMsg: {
-        defaultMessage: 'Upload Backdrop',
+        defaultMessage: 'Upload Background',
         description: 'Button to add a backdrop by uploading a file in the editor tab',
         id: 'gui.costumeTab.addFileBackdrop'
     },
     addFileCostumeMsg: {
-        defaultMessage: 'Upload Costume',
+        defaultMessage: 'Upload Sprite Frame',
         description: 'Button to add a costume by uploading a file in the editor tab',
         id: 'gui.costumeTab.addFileCostume'
     }
