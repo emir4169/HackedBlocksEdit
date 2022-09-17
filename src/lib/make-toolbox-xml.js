@@ -494,6 +494,9 @@ const sensing = function (isInitialSetup, isStage) {
         <block type="sensing_mousedown"/>
         <block type="sensing_mousex"/>
         <block type="sensing_mousey"/>
+        <block type="sensing_joystickx"/>
+        <block type="sensing_joysticky"/>
+        <block type="sensing_joystick_distance"/>
         ${isStage ? '' : `
             ${blockSeparator}
             '<block type="sensing_setdragmode" id="sensing_setdragmode"></block>'+
@@ -783,17 +786,16 @@ const makeToolboxXML = function (isInitialSetup, isStage = true, targetId, categ
         }
         // return `undefined`
     };
+    // What if we changed the order that the blocks appear
+    const eventsXML = moveCategory('event') || events(isInitialSetup, isStage, targetId);
     const motionXML = moveCategory('motion') || motion(isInitialSetup, isStage, targetId);
+    const controlXML = moveCategory('control') || control(isInitialSetup, isStage, targetId);
     const looksXML = moveCategory('looks') || looks(isInitialSetup, isStage, targetId, costumeName, backdropName);
     const soundXML = moveCategory('sound') || sound(isInitialSetup, isStage, targetId, soundName);
-    const eventsXML = moveCategory('event') || events(isInitialSetup, isStage, targetId);
-    const controlXML = moveCategory('control') || control(isInitialSetup, isStage, targetId);
     const sensingXML = moveCategory('sensing') || sensing(isInitialSetup, isStage, targetId);
     const operatorsXML = moveCategory('operators') || operators(isInitialSetup, isStage, targetId);
     const variablesXML = moveCategory('data') || variables(isInitialSetup, isStage, targetId);
     const myBlocksXML = moveCategory('procedures') || myBlocks(isInitialSetup, isStage, targetId);
-    // Always display TurboWarp blocks as the first extension, if it exists,
-    // and also add an "is compiled?" block to the top.
     let turbowarpXML = moveCategory('tw');
     if (turbowarpXML && !turbowarpXML.includes(extraTurboWarpBlocks)) {
         turbowarpXML = turbowarpXML.replace('<block', `${extraTurboWarpBlocks}<block`);
@@ -801,11 +803,11 @@ const makeToolboxXML = function (isInitialSetup, isStage = true, targetId, categ
 
     const everything = [
         xmlOpen,
+        eventsXML, gap,
         motionXML, gap,
+        controlXML, gap,
         looksXML, gap,
         soundXML, gap,
-        eventsXML, gap,
-        controlXML, gap,
         sensingXML, gap,
         operatorsXML, gap,
         variablesXML, gap,
