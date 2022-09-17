@@ -28,7 +28,6 @@ const migrateSettings = settings => {
     }
     // Migrate 1 -> 2
     // tw-project-info is now block-count
-    // tw-interface-customization split into tw-remove-backpack and tw-remove-feedback
     if (oldVersion < 2) {
         const projectInfo = settings['tw-project-info'];
         if (projectInfo && projectInfo.enabled) {
@@ -40,11 +39,6 @@ const migrateSettings = settings => {
         if (interfaceCustomization && interfaceCustomization.enabled) {
             if (interfaceCustomization.removeBackpack) {
                 settings['tw-remove-backpack'] = {
-                    enabled: true
-                };
-            }
-            if (interfaceCustomization.removeFeedback) {
-                settings['tw-remove-feedback'] = {
                     enabled: true
                 };
             }

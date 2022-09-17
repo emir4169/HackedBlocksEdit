@@ -54,7 +54,6 @@ import _script_snap from "../addons/script-snap/_manifest_entry.js";
 import _fullscreen from "../addons/fullscreen/_manifest_entry.js";
 import _tw_straighten_comments from "../addons/tw-straighten-comments/_manifest_entry.js";
 import _tw_remove_backpack from "../addons/tw-remove-backpack/_manifest_entry.js";
-import _tw_remove_feedback from "../addons/tw-remove-feedback/_manifest_entry.js";
 import _tw_disable_compiler from "../addons/tw-disable-compiler/_manifest_entry.js";
 import _editor_stepping from "../addons/editor-stepping/_manifest_entry.js";
 export default {
@@ -113,7 +112,6 @@ export default {
   "fullscreen": _fullscreen,
   "tw-straighten-comments": _tw_straighten_comments,
   "tw-remove-backpack": _tw_remove_backpack,
-  "tw-remove-feedback": _tw_remove_feedback,
   "tw-disable-compiler": _tw_disable_compiler,
   "editor-stepping": _editor_stepping,
 };

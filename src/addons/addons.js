@@ -56,7 +56,6 @@ const addons = [
     'fullscreen',
     'tw-straighten-comments',
     'tw-remove-backpack',
-    'tw-remove-feedback',
     'tw-disable-compiler',
     'editor-stepping'
 ];
