@@ -179,6 +179,7 @@ export default function (vm) {
     ScratchBlocks.Blocks.motion_pointtowards_menu.init = function () {
         const mouse = ScratchBlocks.ScratchMsgs.translate('MOTION_POINTTOWARDS_POINTER', 'mouse-pointer');
         const json = jsonForMenuBlock('TOWARDS', spriteMenu, motionColors, [
+            [random, '_random_'],
             [mouse, '_mouse_']
         ]);
         this.jsonInit(json);
